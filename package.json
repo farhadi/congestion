@@ -1,6 +1,6 @@
 {
   "name": "congestion",
-  "version": "0.1.0-dev",
+  "version": "0.1.0",
   "description": "Generator-based congestion control",
   "main": "congestion.js",
   "scripts": {

@@ -50,7 +50,7 @@ Congestion.prototype.wait = function(value) {
 	}
 	return new Promise(function(resolve) {
 		this.once('free', resolve);
-	});
+	}.bind(this));
 }
 
 module.exports = function(i) {
