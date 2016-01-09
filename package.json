@@ -1,0 +1,27 @@
+{
+  "name": "congestion",
+  "version": "0.1.0-dev",
+  "description": "Generator-based congestion control",
+  "main": "congestion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farhadi/congestion.git"
+  },
+  "keywords": [
+    "congestion",
+    "co",
+    "generator"
+  ],
+  "author": "Ali Farhadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/farhadi/congestion/issues"
+  },
+  "homepage": "https://github.com/farhadi/congestion#readme",
+  "dependencies": {
+    "pinkie-promise": "^2.0.0"
+  }
+}
